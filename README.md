@@ -1,2 +1,2 @@
 # unimelb-projects
-Collection of computational projects from studying at the University of Melbourne
+Collection of computational projects developed during my studies at the University of Melbourne.
