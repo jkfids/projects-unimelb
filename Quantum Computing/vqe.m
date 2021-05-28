@@ -14,6 +14,8 @@ savefig('output/energyvtheta.fig')
 [m,i] = max(Y);
 Y(i) = 0;
 [m,j] = max(Y);
+disp('Minimum Energy:')
+disp(m)
 disp('Optimal Theta(s):')
 disp(X(j))
 disp(X(i))
