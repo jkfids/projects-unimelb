@@ -14,6 +14,5 @@ c4 = 0.191*kron(Y,Y);
 c5 = 0.191*kron(X,X);
 c6 = 0.01*kron(X,Y);
 
-%phi = expm(kron(-1i*theta*X,Y))*[0;1;0;0];
 E = phi'*(c0+c1+c2+c3+c4+c5+c6)*phi;
 end
